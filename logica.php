@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <main>
+    <main class="container">
         <h2>Formulario</h2>
         <form action="" method="post">
             <div class="mb-3">

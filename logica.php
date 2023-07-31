@@ -14,15 +14,15 @@
         <form action="" method="post">
             <div class="mb-3">
                 <label for="numero1">Numero 1</label>
-                <input type="number" id="numero1" name="numero1">
+                <input type="number" id="numero1" name="numero1" class="form-control">
             </div>
             <div class="mb-3">
                 <label for="numero2">Numero 2</label>
-                <input type="number" id="numero2" name="numero2">
+                <input type="number" id="numero2" name="numero2"  class="form-control">
             </div>
             <div class="mb-3">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome">
+                <input type="text" id="nome" name="nome" class="form-control">
             </div>
             <button type="submit">Enviar</button>
         </form>

@@ -18,7 +18,7 @@
             </div>
             <div class="mb-3">
                 <label for="numero2">Numero 2</label>
-                <input type="number" id="numero2" name="numero2"  class="form-control">
+                <input type="number" id="numero2" name="numero2" class="form-control">
             </div>
             <div class="mb-3">
                 <label for="nome">Nome</label>
@@ -27,7 +27,15 @@
             <button type="submit">Enviar</button>
         </form>
     </main>
-    <!-- Java Script Bootstrap -->
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $numero1 = $_POST["numero1"];
+        $numero2 = $_POST["numero2"];
+        $nome = $_POST["nome"];
+    }
+    ?>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 

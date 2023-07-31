@@ -20,6 +20,10 @@
                 <label for="numero2">Numero 2</label>
                 <input type="number" id="numero2" name="numero2">
             </div>
+            <div class="mb-3">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
             <button type="submit">Enviar</button>
         </form>
     </main>

@@ -34,8 +34,8 @@
         $numero2 = $_POST["numero2"];
         $nome = $_POST["nome"];
 
-        if ($nome != ""){
-            echo('Meu nome é '.$nome);
+        if ($nome != "") {
+            echo ('<p>Meu nome é ' . $nome . '</p>');
         }
     }
     ?>

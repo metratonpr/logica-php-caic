@@ -33,13 +33,20 @@
         $numero1 = $_POST["numero1"];
         $numero2 = $_POST["numero2"];
         $nome = $_POST["nome"];
-        echo("<ol>");
+        echo ("<ol>");
         if ($nome != "") {
             echo ('<li>Meu nome é ' . $nome . '</li>');
         }
 
+        if ($numero1 != "" && $numero2 != "") {
+            $somar = $numero1 + $numero2;
+            echo ('<li> Soma: ' . $somar . "</li>");
+            
+            $subtrair = $numero1 - $numero2;
+            echo ('<li> Subtracao: ' . $subtrair . "</li>");           
+        }
         
-        echo("</ol>");
+        echo ("</ol>");
     }
     ?>
 

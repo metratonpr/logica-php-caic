@@ -52,7 +52,13 @@
             echo ('<li> Multiplicação: ' . $multiplicar . "</li>");           
             
             $resto = $numero1 % $numero2;
-            echo ('<li> Resto: ' . $resto . "</li>");           
+            echo ('<li> Resto: ' . $resto . "</li>");  
+
+            $incrementar = (int)$numero1++;
+            echo ('<li> Incrementar: ' . $incrementar . "</li>");
+
+            $decrementar = (int)$numero2--;
+            echo ('<li> Decrementar: ' . $decrementar . "</li>");           
         }
 
         echo ("</ol>");

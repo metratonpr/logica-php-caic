@@ -44,8 +44,17 @@
             
             $subtrair = $numero1 - $numero2;
             echo ('<li> Subtracao: ' . $subtrair . "</li>");           
+            
+            $dividir = $numero1 / $numero2;
+            echo ('<li> Dividisao: ' . $dividir . "</li>");           
+            
+            $multiplicar = $numero1 * $numero2;
+            echo ('<li> Multiplicação: ' . $multiplicar . "</li>");           
+            
+            $resto = $numero1 % $numero2;
+            echo ('<li> Resto: ' . $resto . "</li>");           
         }
-        
+
         echo ("</ol>");
     }
     ?>

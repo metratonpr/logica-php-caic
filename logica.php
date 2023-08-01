@@ -33,10 +33,13 @@
         $numero1 = $_POST["numero1"];
         $numero2 = $_POST["numero2"];
         $nome = $_POST["nome"];
-
+        echo("<ol>");
         if ($nome != "") {
-            echo ('<p>Meu nome é ' . $nome . '</p>');
+            echo ('<li>Meu nome é ' . $nome . '</li>');
         }
+
+        
+        echo("</ol>");
     }
     ?>
 

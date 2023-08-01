@@ -33,6 +33,10 @@
         $numero1 = $_POST["numero1"];
         $numero2 = $_POST["numero2"];
         $nome = $_POST["nome"];
+
+        if ($nome != ""){
+            echo('Meu nome é '.$nome);
+        }
     }
     ?>
 

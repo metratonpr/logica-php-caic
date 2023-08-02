@@ -85,6 +85,14 @@
         }
         echo ("</p>");
         echo ("</div>");
+        echo ("<h5>Foreach</h5>");
+        echo ("<p>");
+        $frutas = array("maçã", "banana", "laranja");
+        foreach ($frutas as $fruta) {
+            echo "Fruta: " . $fruta . "<br>";
+        }
+        echo ("</p>");
+        echo ("</div>");
     }
     ?>
 

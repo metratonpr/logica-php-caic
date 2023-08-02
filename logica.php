@@ -73,6 +73,18 @@
         }
         echo ("</p>");
         echo ("</div>");
+
+        echo ("<h5>While</h5>");
+        echo ("<p>");
+        $contador = 1;
+        //Leitura de arquivos até encontrar o EOF - End of file
+        //conexoes externas e coloco limite de tentativas
+        while ($contador <= 5) {
+            echo "Contador: " . $contador . "<br>";
+            $contador++;
+        }
+        echo ("</p>");
+        echo ("</div>");
     }
     ?>
 

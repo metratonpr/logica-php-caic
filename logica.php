@@ -84,10 +84,18 @@
             $contador++;
         }
         echo ("</p>");
+        //Ruby = put / Ruby on Rails
+        //Python = print() / Django
+        //JS = console.log() / Node.js Backend / React.js Angular.js Vue.js Frontend   
+        //PHP = Wordpress / Cake PHP / Mangento / Laravel / Frontend Blade
+        //Java = system.out.println() / Spring Boot / Thimeleaf Frontend
+        //c++ = Print()
+        //c# / .Net / Asp
+        //C
         echo ("</div>");
         echo ("<h5>Foreach</h5>");
         echo ("<p>");
-        $frutas = array("maçã", "banana", "laranja");
+        $frutas = array("maçã", "banana", "laranja");      
         foreach ($frutas as $fruta) {
             echo "Fruta: " . $fruta . "<br>";
         }

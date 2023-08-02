@@ -41,27 +41,38 @@
         if ($numero1 != "" && $numero2 != "") {
             $somar = $numero1 + $numero2;
             echo ('<li> Soma: ' . $somar . "</li>");
-            
+
             $subtrair = $numero1 - $numero2;
-            echo ('<li> Subtracao: ' . $subtrair . "</li>");           
-            
+            echo ('<li> Subtracao: ' . $subtrair . "</li>");
+
             $dividir = $numero1 / $numero2;
-            echo ('<li> Dividisao: ' . $dividir . "</li>");           
-            
+            echo ('<li> Dividisao: ' . $dividir . "</li>");
+
             $multiplicar = $numero1 * $numero2;
-            echo ('<li> Multiplicação: ' . $multiplicar . "</li>");           
-            
+            echo ('<li> Multiplicação: ' . $multiplicar . "</li>");
+
             $resto = $numero1 % $numero2;
-            echo ('<li> Resto: ' . $resto . "</li>");  
+            echo ('<li> Resto: ' . $resto . "</li>");
 
             $incrementar = (int)$numero1++;
             echo ('<li> Incrementar: ' . $incrementar . "</li>");
 
             $decrementar = (int)$numero2--;
-            echo ('<li> Decrementar: ' . $decrementar . "</li>");           
+            echo ('<li> Decrementar: ' . $decrementar . "</li>");
         }
 
+
         echo ("</ol>");
+
+        echo ("<div><h4> Laços de Repetição</h4>");
+        echo ("<h5>For</h5>");
+
+        echo ("<p>");
+        for ($i = 0; $i < 10; $i++) {
+            echo ("Numero: " . $i . "<br/>");
+        }
+        echo ("</p>");
+        echo ("</div>");
     }
     ?>
 
